@@ -78,23 +78,23 @@ i {
     display: none;
   }
 }
-/* Define um contêiner com largura máxima e centraliza horizontalmente */
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 8px;
 }
 
-/* Estilos para o plano de fundo da página inicial */
+
 .bg-home {
-  position: relative; /* Posicionamento relativo para elementos filhos absolutos */
+  position: relative; 
 }
 
 .bg-home::before {
   content: "";
-  display: block; /* Exibe como um bloco, necessário para largura e altura */
-  position: absolute; /* Posicionamento absoluto em relação ao pai relativo */
-  background-image: linear-gradient(to bottom, transparent 40%, rgba(6, 18, 30, 0), #06121e), url(../assets/bg.svg);
+  display: block; 
+  position: absolute; 
+  background-image: linear-gradient(to bottom, transparent 40%, rgba(6, 18, 30, 0), #06121e), url(./assets/bg.svg);
   left: 0;
   top: 0;
   width: 100%;
@@ -379,4 +379,4 @@ img {
 a {
   cursor: pointer;
   text-decoration: none;
-}/*# sourceMappingURL=style.css.map */
+}
