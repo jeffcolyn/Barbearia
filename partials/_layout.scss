@@ -1,23 +1,21 @@
 
-/* Define um contêiner com largura máxima e centraliza horizontalmente */
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 8px;
 }
 
-//Home-----------------------------------------------
-/* Estilos para o plano de fundo da página inicial */
 
 .bg-home {
-    position: relative; /* Posicionamento relativo para elementos filhos absolutos */
+    position: relative; 
     
 }
 
 .bg-home::before {
     content: '';
-    display: block; /* Exibe como um bloco, necessário para largura e altura */
-    position: absolute; /* Posicionamento absoluto em relação ao pai relativo */
+    display: block; 
+    position: absolute; 
     background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url(../assets/bg.svg);
     
     left: 0;
@@ -30,9 +28,9 @@
     background-position: 50% 0;
     opacity: 1;
 }
-//-------------------------------------------
 
-//Hero -----
+
+
 
 .hero {
     color: $white-normal;
@@ -116,9 +114,6 @@
     }
 }
 
-//-------------------------------------------
-
-//ABOUT
 
 .changecolor {
     color:$red-light;
@@ -143,7 +138,7 @@
 }
 
 .about-content div {
-    flex: 1; //tenta ocupar a tela de forma uniforme
+    flex: 1; 
 }
 
 .about-description {
@@ -164,8 +159,7 @@
     }   
 }
 
-//-----------------------
-//SERVICES
+
 
 .services {
     background-color: $white-normal;
@@ -206,7 +200,7 @@
     background-color: $white-normal;
     border-radius: 8px;
     box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
-    overflow: hidden; // esconde a borda da img deixa aredondada igual a borda da div haircut   
+    overflow: hidden;   
     
     img {
         width: 100%;
@@ -248,8 +242,7 @@
     }
 }
 
-//---------------------------
-//FOOTER
+
 
 .footer {
     display: flex;
@@ -272,7 +265,7 @@
 }
 
 
-//BOTAO WHATSAPP
+
 
 .btn-Whatsapp {
     position: fixed;
